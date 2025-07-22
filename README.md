@@ -56,19 +56,6 @@ This will build a production bundle and push it to the gh-pages branch.Your site
 
 Windows / PowerShell users: the build and start scripts already include NODE_OPTIONS=--openssl-legacy-provider for Node 17+ compatibility. No extra steps required.
 
-📂 Project Structure (key folders)
-
-react-frontend-dev-portfolio/
-│
-├── public/
-│   ├── data/          JSON content files (edit these first!)
-│   └── index.html     CRA template
-│
-├── src/
-│   ├── components/    Re‑usable React components
-│   ├── themes/        Dark & light SCSS themes
-│   └── App.js         Main router / section loader
-└── package.json       Scripts & dependencies
 
 📝 Customising Content
 

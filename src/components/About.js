@@ -65,10 +65,34 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}
+                    {/* button code */}
+                    <div className="text-center mt-4">
+                      <a
+                        href="https://drive.google.com/file/d/1RDHpU84Vv2VGII_5o5JN8t_z-6rRGlT5/view"
+                        className="btn"
+                        style={{
+                          backgroundColor: "#343A40",
+                          color: "#fff",
+                          padding: "10px 20px",
+                          borderRadius: "8px",
+                          fontWeight: "bold",
+                          textDecoration: "none",
+                          display: "inline-block",
+                        }}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                      >
+                        <span role="img" aria-label="document">
+                          📄
+                        </span>{" "}
+                        Download Resume
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

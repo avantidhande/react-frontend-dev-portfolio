@@ -66,3 +66,26 @@ Add skills / projects → append objects in the relevant JSON arrays.
 Colours & fonts → tweak SCSS variables in src/themes/.
 
 Add sections → create a component in src/components/ and register it in App.js.
+
+
+
+Note : If we want to again customize portfolio after deployment and run it locally edit in package.json 
+  1 edit to this "homepage": ".",
+  2 edit to this "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+   "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  specially build script.after completing the changes keep again as it in package.json like this
+  1 "homepage": "https://avantidhande.github.io/react-frontend-dev-portfolio/",
+  2  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+   "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },

@@ -1,134 +1,81 @@
-<img width="80%" align="center" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/portfolio_mockup.png" alt="portfolio template mockup" /> <br/>
-<img height="350px" align="right" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/mobile-demo.gif" alt="portfolio mobile demo gif"/>
+Avanti Dhande – React Portfolio 
 
-<img align="left" src="https://github.com/leungwensen/svg-icon/blob/master/dist/svg/logos/react.svg" height="50" alt="react icon"/>
-<h2>Portfolio Template</h2>
+A minimal, multilingual, mobile‑friendly portfolio built with Create React App and Sass.Forked from the excellent react‑frontend‑dev‑portfolio and customised for my own needs.
 
-<pre>
-⭐ Easy to adapt and deploy portfolio project covering most important 
-sections(about, exp, skills, projects), inspired with solutions found 
-at GitHub. Check live preview(link below).
-</pre>
+🚀 Live Demo
 
-<strong>:crown: advantages</strong>
+https://avantidhande.github.io/react-frontend-dev-portfolio/
 
-<img src="https://img.shields.io/badge/-multilingual-blue" alt="multilingual"/> &nbsp; <img src="https://img.shields.io/badge/-mobile friendly-blue" alt="mobile friendly"/> &nbsp; <img src="https://img.shields.io/badge/-light/dark mode-blue" alt="light/dark mode"/> &nbsp; <img src="https://img.shields.io/badge/-json fetched data-blue" alt="json fetched data"/> &nbsp; <img src="https://img.shields.io/badge/-minimalistic-blue" alt="minimalistic"/> &nbsp; <img src="https://img.shields.io/badge/-expandable-blue" alt="expandable"/>
+🌟 Highlights
 
-<br/>
+Multilingual – content pulled from JSON files so adding a new language is just another JSON file.
 
-<h3>:eye_speech_bubble: Live demo</h3>
+Mobile‑first & responsive – looks great on phones, tablets and desktops.
 
-Check live demonstration <a href="https://dorota1997.github.io/react-frontend-dev-portfolio/"><strong>here</strong></a>
+Light / Dark modes – built‑in theme switcher with localStorage persistence.
 
-<img width="100%" src="https://github.com/Dorota1997/react-frontend-dev-portfolio/blob/images/images/react_portfolio_about.png" alt="react frontend dev portfolio preview"/>
+Data‑driven – all About / Skills / Experience / Projects sections live in public/data/*.json.
 
-<h3>:books: Getting started</h3>
+Clean & minimal – easy to read, easy to extend.
 
-1. Clone or fork project.
-2. Install required dependencies with `npm install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot. 
+One‑click deploy – GitHub Pages ready via npm run deploy.
 
-```
-// package.json
+🛠 Getting Started
+
+Tested with Node v20+ (uses the --openssl-legacy-provider flag for Webpack‑4 compatibility).
+
+# 1  Clone the repo (or download the ZIP)
+git clone https://github.com/avantidhande/react-frontend-dev-portfolio.git
+cd react-frontend-dev-portfolio
+
+# 2  Install dependencies
+npm install
+
+# 3  Fix the homepage path for local dev
+#    Either delete the line entirely or set it to a single dot (.) in package.json
+
+# 4  Start the dev server
+npm start
+#    Now browse to http://localhost:3000 and customise data/components.
+
+Deployment to GitHub Pages
+
+Set the correct homepage URL in package.json before deploying:
+
 {
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://dorota1997.github.io/react-frontend-dev-portfolio/",   <-- remove/edit this
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  ...
+  "homepage": "https://avantidhande.github.io/react-frontend-dev-portfolio/"
 }
-```
 
-4. `npm start` project and customize it.
-5. Deploy on github-pages using `npm run deploy` command.
+Ensure the gh-pages package is installed (already in devDependencies).
 
-<pre>
-⚠️ Note that:
-- if you want to have portfolio on different repository than `{username}.github.io`, 
-set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
-before deploying portfolio.
-- if you want to run it locally with <strong>npm run start</strong>, make sure that you have edited 
-homepage property or json data won't load.
-</pre>
+From the project root run:
 
-<h3>:star: Inspirations</h3>
+npm run deploy
 
-<a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
-<a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
-<a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
-<a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
-<a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
-<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
-<a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
+This will build a production bundle and push it to the gh-pages branch.Your site will be live at the URL above within a minute.
 
-<h3>:memo: Changelog</h3>
-<details>
-<summary>[ 05.03.2022, contributor: <a href="https://github.com/mangelarilla">@mangelarilla</a> ]</summary>
-<pre>
-- update DevIcon stylesheet to latest one
-</pre>
-</details>
-<details>
-<summary>[ 03.10.2021, contributor: <a href="https://github.com/shahednasser">@shahednasser</a> ]</summary>
-<pre>
-- updated sass dependency.
-</pre>
-</details>
-<details>
-<summary>[ 26.05.2021, contributor: <a href="https://github.com/DavidMatalik">@DavidMatalik</a> ]</summary>
-<pre>
-- removed nonexisting logos references: logo192 and logo512.  
-</pre>
-</details>
-<details>
-<summary>[ 17.01.2021, contributor: <a href="https://github.com/igorperic17">@igorperic17</a> ]</summary>
-<pre>
-- wrapped the Typical component into a fixed height div due to the bad transitions for a brief moment between two titles when the string is empty (the content bellow jumps up-down very quickly).
-- removed the title from the page document.title due to the increased title length.
-</pre>
-</details>
-<details>
-<summary>[ 30.11.2020, contributor: <a href="https://github.com/dorota1997">@dorota1997</a> ]</summary>
-<pre>
-- updated readme section
-- fixed problem of json files not being read
-</pre>
-</details>
-<details>
-<summary>[ 29/30.11.2020, contributor: <a href="https://github.com/trolit">@trolit</a> ]</summary>
-<pre>
-- changed resume files names to more "universal"
-- moved languages names to global variables
-- moved section names to json files
-- added target="_blank" for footer links
-- added startDate property for projects
-- excluded common json data to portfolio_shared_data file
-- added header section height calculation based on formula: window.innerHeight - 140
-- small changes to vertical timeline item (color/font-size)
-- project link in modal is not shown if empty
-- changed slider preloader bar color
-- wrapped each skill into tile
-- footer fullname is fetched from json now
-- added mising "px" for avatar in About.js component
-- updated json files content
-- page title is fetched from json data
-- added GitHub reference corner "label"
-- edited page meta
-- added margin, padding 0 for html tag
-- excluded light theme ref from theme-dark file
-- slightly changed Header.js section look
-- made some changes to App.js to apply global variables/shared json etc.
-- centered fullname/pos/theme toggler in Header section
-</pre>
-</details>
+Windows / PowerShell users: the build and start scripts already include NODE_OPTIONS=--openssl-legacy-provider for Node 17+ compatibility. No extra steps required.
 
-<h3>:gear: Contribution</h3>
+📂 Project Structure (key folders)
 
-If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
+react-frontend-dev-portfolio/
+│
+├── public/
+│   ├── data/          JSON content files (edit these first!)
+│   └── index.html     CRA template
+│
+├── src/
+│   ├── components/    Re‑usable React components
+│   ├── themes/        Dark & light SCSS themes
+│   └── App.js         Main router / section loader
+└── package.json       Scripts & dependencies
 
-<h3>:camera: Credits(images)</h3>
+📝 Customising Content
 
-Images used in portfolio template come from Pixabay, references:
+Text / links / images → edit the JSON files in public/data/.
 
-<a href="https://pixabay.com/photos/people-woman-girl-clothing-eye-2563491/">p1</a>, <a href="https://pixabay.com/photos/dog-puppy-sharpei-petit-animal-1865712/">p2</a>, <a href="https://pixabay.com/photos/night-camera-photographer-photo-1927265/">p3</a>, <a href="https://pixabay.com/photos/road-forest-season-autumn-fall-1072823/">p4</a>, <a href="https://pixabay.com/photos/neuschwanstein-castle-bavaria-701732/">p5</a>, <a href="https://pixabay.com/photos/hohenschwangau-alps-alpsee-bavaria-532864/">p6</a>
+Add skills / projects → append objects in the relevant JSON arrays.
+
+Colours & fonts → tweak SCSS variables in src/themes/.
+
+Add sections → create a component in src/components/ and register it in App.js.

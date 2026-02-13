@@ -72,7 +72,7 @@ class About extends Component {
                     {/* button code */}
                     <div className="text-center mt-4">
                       <a
-                        href="https://drive.google.com/file/d/1RDHpU84Vv2VGII_5o5JN8t_z-6rRGlT5/view"
+                        href="https://drive.google.com/file/d/13XPM3-CPHodULY_dIvB7yCpK1-w_R1Qz/view?usp=drive_link"
                         className="btn"
                         style={{
                           backgroundColor: "#343A40",

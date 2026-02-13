@@ -89,3 +89,29 @@ Note : If we want to again customize portfolio after deployment and run it local
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+
+
+
+
+💡 When You Want To Run Locally Again
+
+Change:
+
+"homepage": "."
+
+
+OR remove homepage line.
+
+Then:
+
+npm start
+
+
+After finishing changes → change homepage back → run npm run deploy.
+
+🚀 Full Simple Workflow For You
+
+Edit → Save →
+npm run deploy →
+Wait → Refresh site.
+

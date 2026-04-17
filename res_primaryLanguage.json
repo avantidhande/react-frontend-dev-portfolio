@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Avanti Dhande. I am a Web Developer with 8 Months of experience in building responsive and user friendly web interfaces using ReactJS. Also proficient in backend setup, delivering robust and efficient solutions. Adopt at creating clean, maintainable code and collaborating in dynamic development environments. Thank you 💜",
+      "description_header": "👋 Hello, I'm Avanti Dhande",
+      "description": "A dedicated Full Stack Web Developer with 8 months of professional experience in creating responsive and engaging web interfaces using ReactJS, along with backend integration for seamless functionality.I specialize in developing clean, scalable, and maintainable code while delivering efficient and performance-driven solutions.As a Freelance Developer, I help businesses and individuals turn their ideas into modern, user-friendly web experiences.Always learning. Always building💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -81,25 +81,113 @@
             "name": "JavaScript"
           }
         ]
-      }
+      },
+
+          {
+      "title": "Card Matching Game",
+      "startDate": "2025",
+      "description": "Developed an interactive Card Matching Game using JavaScript, focusing on DOM manipulation and game logic implementation. Designed a responsive and visually engaging UI with smooth flip animations and real-time score tracking. Implemented game reset functionality and optimized performance for seamless gameplay across devices.",
+      "images": [
+        "images/portfolio/card-matching/p1.png",
+        "images/portfolio/card-matching/p2.png"
+      ],
+      "url": "https://your-card-game-link.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+
+
+     {
+      "title": "Shop Verse",
+      "startDate": "2025",
+      "description": "Shop Verse is a modern eCommerce website designed to provide a seamless online shopping experience with user-friendly navigation and secure payments. It offers a wide range of products with an attractive and responsive interface for customers.",
+      "images": [
+        "images/portfolio/shop-verse/p1.png",
+        "images/portfolio/shop-verse/p2.png",
+         "images/portfolio/shop-verse/p3.png"
+      ],
+      "url": "https://ecommerce-website-chi-two.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "NextJs"
+        },
+    
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+
+    {
+      "title": "Molecule Hub Lab",
+      "startDate": "2026",
+      "description": "Designed and developed a modern, responsive laboratory website for Molecule Hub Lab as a freelance project using Wix. Created a smooth one-page scrolling layout with structured sections like About, Courses, and Contact. Implemented custom enquiry forms for students, optimized SEO settings for better visibility, and ensured full mobile responsiveness across devices. Focused on clean UI, structured layout, and seamless user navigation.",
+      "images": [
+        "images/portfolio/moleculehub/p1.png",
+        "images/portfolio/moleculehub/p2.png",
+          "images/portfolio/moleculehub/p3.png"
+      ],
+      "url": "https://amoleculehub.wixsite.com/home",
+      "technologies": [
+        {
+          "class": "devicon-wix-plain",
+          "name": "Wix"
+        }
+      ]
+    }
+
     ],
+
+ 
     "experience": [
-      {
-        "company": "Sapalogy",
-        "title": "Web Developer",
-        "years": "06.2024 - 02.2025",
-        "mainTech": [
-          "ReactJs 8/9/10"
-        ],
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Bootstrap",
-          "React",
-          "Php",
-          "MySQL"
-        ]
-      }
+  {
+    "company": "Sapalogy",
+    "title": "Web Developer",
+    "years": "06.2024 - 02.2025",
+    "mainTech": [
+      "ReactJS"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "ReactJS",
+      "PHP",
+      "MySQL"
     ]
+  },
+  {
+  "company": "Freelancing",
+  "title": "Freelance Web Developer",
+  "years": "01.2026 - Present",
+  "mainTech": [
+    "Wix"
+  ],
+  "technologies": [
+    "Wix Editor",
+    "Responsive Design",
+    "Landing Page Design",
+    "SEO Optimization",
+    "Custom Forms",
+    "Domain & Hosting Setup"
+  ]
+}
+
+]
+
   }

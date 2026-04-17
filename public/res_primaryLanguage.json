@@ -108,6 +108,30 @@
       ]
     },
 
+
+     {
+      "title": "Shop Verse",
+      "startDate": "2025",
+      "description": "Shop Verse is a modern eCommerce website designed to provide a seamless online shopping experience with user-friendly navigation and secure payments. It offers a wide range of products with an attractive and responsive interface for customers.",
+      "images": [
+        "images/portfolio/shop-verse/p1.png",
+        "images/portfolio/shop-verse/p2.png",
+         "images/portfolio/shop-verse/p3.png"
+      ],
+      "url": "https://ecommerce-website-chi-two.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "NextJs"
+        },
+    
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+
     {
       "title": "Molecule Hub Lab",
       "startDate": "2026",

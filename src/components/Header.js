@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import Switch from "react-switch";
 
 class Header extends Component {
-  titles = [];
+  titles = [];  
 
   constructor() {
     super();

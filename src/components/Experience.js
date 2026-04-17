@@ -5,9 +5,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
-
+    
 class Experience extends Component {
-  render() {
+  render() { 
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
@@ -20,7 +20,7 @@ class Experience extends Component {
               {technology}
             </Badge>
           );
-        });
+        }); 
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
